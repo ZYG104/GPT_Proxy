@@ -1,0 +1,58 @@
+pre {
+  padding: 30px 1em 1em 3.8em !important;
+}
+
+.toolbar {
+  opacity: 1 !important;
+}
+
+.token {
+  background: none !important;
+}
+
+.toolbar-item:nth-child(1) span {
+  background-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+}
+.toolbar-item:nth-child(1) span:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+}
+
+.custom-copy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 24px;
+  border-radius: 5px;
+  background-color: rgba(97, 97, 97, 1);
+}
+.custom-copy-button:hover {
+  cursor: pointer;
+}
+
+.custom-copy-button-default {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-copy-default {
+  background-image: url("./copy.svg");
+}
+.icon-copy-success {
+  background-image: url("./done.svg");
+}
+.icon-copy-error {
+  background-image: url("./close.svg");
+}
+
+.custom-copy-button-success {
+  background-color: rgba(76, 175, 80, 1);
+}
+.custom-copy-button-error {
+  background-color: rgba(244, 67, 54, 1);
+}
